@@ -5,9 +5,6 @@ import Prelude
 import Control.Plus (empty)
 import Data.List (List(..), filter, head)
 import Data.Maybe (Maybe)
-import Control.Monad.Eff.Console (log)
-
-main = log "Hello, World!"
 
 type Entry =
   {
